@@ -14,10 +14,10 @@ public class Student extends Person{
         this.score = score;
     }
 
-    public Student(int id, String name, short age, Address address, double score, String getcapaCity) {
+    public Student(int id, String name, short age, Address address, double score, String capaCity) {
         super(id, name, age, address);
         this.score = score;
-        getcapaCity = getCapacity();
+        capaCity = getCapacity();
     }
 
     @Override

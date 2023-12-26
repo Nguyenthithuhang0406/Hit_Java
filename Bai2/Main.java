@@ -9,7 +9,7 @@ public class Main {
         int choice = Integer.parseInt(sc.nextLine());
         switch (choice){
             case 1:
-                Student t = new Student();
+
                 break;
             case 2:
                 System.out.println("nhập id sinh viên cần xoá: ");
